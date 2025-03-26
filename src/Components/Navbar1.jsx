@@ -229,19 +229,19 @@ const Navbar1 = () => {
           <ul className="flex  items-center font-semibold ml-24 md:ml-6  ">
         
             <li>
-              <a href="#" className="hover:text-gray-300 md:text-[12px]  md:mr-1   text-lg">
+              <a href="#" className="hover:text-blue-500 md:text-[12px]  md:mr-1   text-lg">
                 AWS Free Tier
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300 md:text-[11px]  text-[13px] lg:ml-64 md:ml-8">
+              <a href="#" className="hover:text-blue-500 md:text-[11px]  text-[13px] lg:ml-64 md:ml-8">
                 Contact US
               </a>
             </li>
             <li> 
               <a
                 href="#"
-                className="hover:text-gray-300 cursor-pointer space-x-1"
+                className="hover:text-blue-500 cursor-pointer space-x-1"
               
               >
                 <span className="flex mx-4 md:text-[11px] md:mt-1   text-[14px]">
@@ -252,49 +252,40 @@ const Navbar1 = () => {
               </a>
             </li>
             <li className="relative group">
-              <a href="#" className="hover:text-gray-300 md:mx-2  mx-4 md:text-[11px] md:mt-1   text-[13px] flex items-center">
-                Free Tier Categories
-                <IoIosArrowDown className="mt-1 ml-1 transition-transform group-hover:rotate-180" />
-              </a>
-              <div className="absolute top-full left-0 mt-1 w-56 bg-white shadow-lg rounded-md ring-1 ring-black/5 hidden group-hover:block">
-                <div className="py-1">
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
-                  >
-                    French
-                  </a>
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
-                  >
-                    Itallian
-                  </a>
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
-                  >
-                    Japanease
-                  </a>
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
-                  >
-                    Spanish
-                  </a>
-                 
-                </div>
-              </div>
-            </li>
+  <a href="#" className="hover:text-blue-500 md:mx-2 mx-4 md:text-[11px] md:mt-1 text-[13px] flex items-center">
+    Free Tier Categories
+    <IoIosArrowDown className="mt-1 ml-1 transition-transform group-hover:rotate-180" />
+  </a>
+  <div className="absolute top-full left-0 mt-1 w-56 bg-white shadow-lg rounded-md ring-1 ring-black/5 hidden group-hover:block">
+    <div className="py-0">
+      <a href="#" className="block px-4 py-1   text-sm text-blue-600 hover:bg-black hover:text-white">Artificial Intelligence</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">Machine Learning</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">Database</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">Web Apps</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">DevOps</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">Storage</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">Analytics</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">End User Computing</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">Containers</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">Compute</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">Migration</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">Application Integration</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">Internet of Things</a>
+      <a href="#" className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white">Cloud Security</a>
+     
+    </div>
+  </div>
+</li>
+
 
             <li className="relative group">
               <a
                 href="#"
-                className="hover:text-gray-300 "
+                className="hover:text-blue-500 "
                 
               >
                 <span className="flex  mx-3  md:text-[11px] md:mt-1 text-[13px]">
-                  How to Create an Account
+                  Featured Offers for Business
                   <IoIosArrowDown className="mt-1 ml-1 transition-transform group-hover:rotate-180" />
                 </span>
               </a>
@@ -302,41 +293,30 @@ const Navbar1 = () => {
                 <div className="py-1">
                   <a
                     href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
+                    className="block px-4 py-2 text-sm text-blue-600 hover:bg-black hover:text-white"
                   >
-                    AWS Management Console
+                    AWS for Startup
                   </a>
                   <a
                     href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
+                    className="block px-4 py-2 text-sm text-blue-600 hover:bg-black hover:text-white"
                   >
-                    Account Settings
+                    AWS for Small Business
                   </a>
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
-                  >
-                    Billing & Cost Management
-                  </a>
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
-                  >
-                    Security Credentials
-                  </a>
+                 
                  
                 </div>
               </div>
             </li>
         
             <li>
-              <a href="#" className="hover:text-gray-300 mx-2 md:mx-1 md:text-[11px] md:mt-1  text-[13px]">
+              <a href="#" className="hover:text-blue-500 mx-2 md:mx-1 md:text-[11px] md:mt-1  text-[13px]">
                 FAQs
               </a>
 
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300 mx-2 md:text-[11px]      text-[13px]">
+              <a href="#" className="hover:text-blue-500 mx-2 md:text-[11px]      text-[13px]">
                 Terms & Conditions
               </a>
 

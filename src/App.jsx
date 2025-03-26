@@ -1,5 +1,6 @@
 import Navbar from "./Components/navbar"
 import Navbar1 from "./Components/Navbar1"
+import Section from "./Components/Section"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
    
    <Navbar1/>
+   <Section/>
     </>
   )
 }

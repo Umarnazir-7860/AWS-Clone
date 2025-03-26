@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         primary: "#141f2e",  // Custom color add kiya
+        section:"#00070d",
       },
     },
   },
