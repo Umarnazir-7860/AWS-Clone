@@ -238,7 +238,7 @@ const Navbar1 = () => {
                 Contact US
               </a>
             </li>
-            <li className="relative group"> 
+            <li> 
               <a
                 href="#"
                 className="hover:text-gray-300 cursor-pointer space-x-1"
@@ -247,39 +247,9 @@ const Navbar1 = () => {
                 <span className="flex mx-4 md:text-[11px] md:mt-1   text-[14px]">
                   {" "}
                   Overview{" "}
-                  <IoIosArrowDown className="mt-1 ml-1 transition-transform group-hover:rotate-180" />
+                 
                 </span>
               </a>
-              <div className="absolute top-full left-0 mt-1 w-56 bg-white shadow-lg rounded-md ring-1 ring-black/5 hidden group-hover:block">
-                <div className="py-1">
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
-                  >
-                    Support Center
-                  </a>
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
-                  >
-                    Expert Center
-                  </a>
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
-                  >
-                    Knowledge Center
-                  </a>
-                  <form method="POST" action="#">
-                    <button
-                      type="submit"
-                      className="block w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-black hover:text-white"
-                    >
-                      AWS Support Overview
-                    </button>
-                  </form>
-                </div>
-              </div>
             </li>
             <li className="relative group">
               <a href="#" className="hover:text-gray-300 md:mx-2  mx-4 md:text-[11px] md:mt-1   text-[13px] flex items-center">
