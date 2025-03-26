@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#141f2e",  // Custom color add kiya
+      },
+    },
   },
   plugins: [],
 }
