@@ -159,9 +159,10 @@ const Navbar1 = () => {
 
             </li>
           </ul>
-          <button className="text-black bg-white rounded-lg p-2 md:w-1/5 md:text-xs md:p-1 font-semibold">
-            Create an AWS Account
-          </button>
+          
+            <button className="text-black bg-white rounded-lg p-2 md:w-1/5 md:text-xs md:p-1 font-semibold">
+              Create an AWS Account
+            </button>
           <VscAccount className="text-3xl text-white  sm:mr-48" />
         </nav>
 
@@ -424,10 +425,10 @@ const Navbar1 = () => {
 >
 
           AWS Free Tier
-          <IoIosArrowDown className="mt- ml-1 transition-transform group-hover:rotate-180" />
+          <IoIosArrowDown className="mt-1 ml-1 transition-transform group-hover:rotate-180" />
         </a>
         {/* AWS Free Tier Dropdown */}
-        <div className="absolute top-full left-0 w-60 bg-white shadow-lg rounded-md ring-1 ring-black/5 hidden group-hover:block">
+        <div className="absolute top-full left-0 w-[150px] sm:w-[200px] bg-white shadow-lg rounded-md ring-1 ring-black/5 hidden group-hover:block">
           <div className="py-1">
             
             <a
@@ -466,7 +467,7 @@ const Navbar1 = () => {
                 Free Tier Categories
                 <IoIosArrowDown className="ml-2 transition-transform peer-hover:rotate-180" />
               </a>
-              <div className="absolute top-0 left-full w-56 bg-white shadow-lg rounded-md ring-1 ring-black/5 hidden peer-hover:block">
+              <div className="absolute top-0 left-full w-[150px] sm:w-56 bg-white shadow-lg rounded-md ring-1 ring-black/5 hidden peer-hover:block">
                 <div className="py-1">
                   <a
                     href="#"
@@ -562,12 +563,13 @@ const Navbar1 = () => {
             <div className="relative">
               <a
                 href="#"
-                className="block px-4 py-2 text-sm text-blue-600 hover:bg-black hover:text-white flex items-center justify-between peer"
+                className=" px-4 py-2 text-sm text-blue-600 hover:bg-black hover:text-white flex items-center justify-between peer"
               >
                 Featured Offers for Business
-                <IoIosArrowDown className="ml-2 transition-transform peer-hover:rotate-180" />
+                <IoIosArrowDown className="ml-2 transition-transform peer-hover:rotate-180 " />
               </a>
-              <div className="absolute top-0 left-full w-56 bg-white shadow-lg rounded-md ring-1 ring-black/5 hidden peer-hover:block">
+              <div className="absolute top-0 left-full w-[150px] sm:w-56 bg-white shadow-lg rounded-md ring-1 ring-black/5 opacity-0 peer-hover:opacity-100 peer-hover:block transition-opacity duration-500 delay-300">
+
                 <div className="py-1">
                   <a
                     href="#"
