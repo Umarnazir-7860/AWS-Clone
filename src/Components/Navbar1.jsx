@@ -168,7 +168,7 @@ const Navbar1 = () => {
         {/* Account Icon */}
       </div>
       <div className="bg-primary hidden md:flex justify-between  items-center p-4 sm:space-x-2 space-x-6">
-        <button className="px-4 lg:px-4  md:ml-5 py-2 sm:ml-0 sm:px-0.5 sm:text-xs text-white font-bold rounded-lg bg-gradient-to-r from-purple-700 to-blue-700 hover:from-blue-500 hover:to-purple-500">
+        <button className="px-4 lg:px-4  md:ml-2 py-2 sm:ml-0 sm:px-0.5 sm:text-xs text-white font-bold rounded-lg bg-gradient-to-r from-purple-700 to-blue-700 hover:from-blue-500 hover:to-purple-500">
           Amazon Q
         </button>
         <nav className="text-white space-x-6 ">
@@ -225,11 +225,11 @@ const Navbar1 = () => {
           </ul>
         </nav>
       </div>
-      <nav className="text-black md:flex hidden border border-primary p-4 items-center space-x-6 ">
+      <nav className="text-black md:flex hidden border  border-primary p-4 items-center space-x-6 ">
           <ul className="flex  items-center font-semibold ml-24 md:ml-6  ">
         
             <li>
-              <a href="#" className="hover:text-blue-500 md:text-[12px]  md:mr-1   text-lg">
+              <a href="#" className="hover:text-blue-500 md:text-[11px]     text-lg">
                 AWS Free Tier
               </a>
             </li>
@@ -414,6 +414,182 @@ const Navbar1 = () => {
           />
         </div>
       )}
+{ isMenuOpen? "hidden": <nav className={`text-black flex md:hidden border border-primary ${showSearch?"hidden":"block"} p-4 items-center space-x-6`}>
+
+<ul className="flex items-center space-x-4">
+      <li className="relative group">
+      <a
+  href="#"
+  className={`hover:text-blue-500 flex text-md transition-all duration-300 ease-in-out mt-${isMenuOpen ? '6' : '0'}`}
+>
+
+          AWS Free Tier
+          <IoIosArrowDown className="mt- ml-1 transition-transform group-hover:rotate-180" />
+        </a>
+        {/* AWS Free Tier Dropdown */}
+        <div className="absolute top-full left-0 w-60 bg-white shadow-lg rounded-md ring-1 ring-black/5 hidden group-hover:block">
+          <div className="py-1">
+            
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
+            >
+              AWS Management Console
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
+            >
+              Account Settings
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
+            >
+              Billing & Cost Management
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-black hover:text-white"
+            >
+              Security Credentials
+            </a>
+
+            <hr className="my-2 border-gray-200" />
+
+            {/* Nested Free Tier Categories Dropdown */}
+            <div className="relative">
+              <a
+                href="#"
+                className=" px-4 py-2 text-sm text-blue-600 hover:bg-black hover:text-white flex items-center justify-between peer"
+              >
+                Free Tier Categories
+                <IoIosArrowDown className="ml-2 transition-transform peer-hover:rotate-180" />
+              </a>
+              <div className="absolute top-0 left-full w-56 bg-white shadow-lg rounded-md ring-1 ring-black/5 hidden peer-hover:block">
+                <div className="py-1">
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Artificial Intelligence
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Machine Learning
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Database
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Web Apps
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    DevOps
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Storage
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Analytics
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    End User Computing
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Containers
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Compute
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Migration
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Application Integration
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Internet of Things
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-1 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    Cloud Security
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <hr className="my-2 border-gray-200" />
+
+            {/* Nested Featured Offers for Business Dropdown */}
+            <div className="relative">
+              <a
+                href="#"
+                className="block px-4 py-2 text-sm text-blue-600 hover:bg-black hover:text-white flex items-center justify-between peer"
+              >
+                Featured Offers for Business
+                <IoIosArrowDown className="ml-2 transition-transform peer-hover:rotate-180" />
+              </a>
+              <div className="absolute top-0 left-full w-56 bg-white shadow-lg rounded-md ring-1 ring-black/5 hidden peer-hover:block">
+                <div className="py-1">
+                  <a
+                    href="#"
+                    className="block px-4 py-2 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    AWS for Startup
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-4 py-2 text-sm text-blue-600 hover:bg-black hover:text-white"
+                  >
+                    AWS for Small Business
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+            </nav>}
+
     </>
   );
 };
