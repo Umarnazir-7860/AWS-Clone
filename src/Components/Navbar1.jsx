@@ -12,7 +12,7 @@ const Navbar1 = () => {
   return (
     <>
       {/* ✅ Desktop Navbar */}
-      <div className="bg-primary  md:flex hidden w-full items-center justify-between p-4">
+      <div className="bg-primary fixed top-10px z-20 left-0  md:flex hidden w-full items-center justify-between p-4">
         <img
           className="w-14 mr-32 md:mr-11"
           src="/images/aws_logo.png"
@@ -20,7 +20,7 @@ const Navbar1 = () => {
         />
 
         {/* Desktop Navigation */}
-        <nav className="text-white md:flex  items-center space-x-6 ">
+        <nav className="  text-white md:flex  items-center space-x-6 ">
           <ul className="flex space-x-6  md:space-x-2 md:text-xs ">
             <li>
               <a href="#" className="hover:text-gray-300">
@@ -226,7 +226,7 @@ const Navbar1 = () => {
           </ul>
         </nav>
       </div>
-      <nav className="text-black md:flex hidden border  border-primary p-4 items-center space-x-6 ">
+      <nav className="fixed top-10px left-0 z-10 w-full bg-white text-black md:flex hidden border  border-primary p-4 items-center space-x-6 ">
           <ul className="flex  items-center font-semibold ml-24 md:ml-6  ">
         
             <li>
@@ -328,7 +328,7 @@ const Navbar1 = () => {
     
 
       {/* /* ✅ Mobile Navbar */}
-      <div className="bg-primary  flex md:hidden w-full items-center justify-between p-4">
+      <div className="bg-primary   flex md:hidden w-full items-center justify-between p-4">
         <img
           className="w-14 mr-32 md:mr-11"
           src="/images/aws_logo.png"
@@ -393,7 +393,7 @@ const Navbar1 = () => {
           </div>
         )}
       </div>
-      <div className="bg-primary  flex md:hidden w-full items-center justify-between p-10 space-x-5 ">
+      <div className="bg-primary   flex md:hidden w-full items-center justify-between p-10 space-x-5 ">
         <button className="text-black text-xs bg-white rounded-lg p-3 w-80 font-semibold">
           Get Started For Free
         </button>
